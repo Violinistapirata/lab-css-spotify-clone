@@ -6,3 +6,54 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#section-1 {
+    background-image: url(../images/landing.jpg);
+}
+
+
+
+
+
+#section-3 {
+    position:relative;
+    display:flex;
+    background-color: #00b172;
+}
+
+#logo-white {
+    position:absolute;
+    width: 150px;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
+
+#section-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 40px;
+}
+
+#section-3 > div {
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#section-3 > div h3 {
+    text-decoration: underline;
+}
+
+#app-image {
+    width: 500px;
+} 
+}
